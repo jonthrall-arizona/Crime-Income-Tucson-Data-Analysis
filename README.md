@@ -15,9 +15,15 @@ This project investigates whether neighborhood-level economic indicators — a w
 
 ## Data
 
-All data comes from the City of Tucson's public GIS data hub:
-- Tucson Police reported crime and arrest records (by neighborhood, ward, type, and time)
-- Neighborhood-level income and household data (wealth index, total households)
+All data comes from the City of Tucson's public GIS data hub. The raw CSVs used in this analysis are included in this repo:
+
+| File | Description |
+|---|---|
+| `crimes.csv` | Tucson Police reported crime incidents, including ward, neighborhood, crime type, and time of occurrence. |
+| `arrests.csv` | Tucson Police arrest records by neighborhood, used to compute crime counts per neighborhood for the predictive models. |
+| `income.csv` | Neighborhood-level socioeconomic data, including a wealth index and total household counts, used as the model features. |
+
+Source: [City of Tucson GIS Data](https://gisdata.tucsonaz.gov/) — Tucson Police Reported Crimes and neighborhood income/household datasets.
 
 ## Methods
 
