@@ -11,7 +11,7 @@ This project investigates whether neighborhood-level economic indicators — a w
 ## What's in this repo
 
 - **`Report.pdf`** — the full written report: introduction, related works, methodology, data visualization, both models, results, limitations, and references.
-- **`TPD.ipynb`** — the complete analysis notebook: data cleaning, merging, visualization, and both models, runnable end to end.
+- **`main.ipynb`** — the complete analysis notebook: data cleaning, merging, visualization, and both models, runnable end to end.
 
 ## Data
 
